@@ -27,7 +27,8 @@ LOCAL_SRC_FILES += \
 LOCAL_CFLAGS += \
      -fno-short-enums \
      -D_ANDROID_ \
-     -Wno-unused-parameter
+     -Wno-unused-parameter \
+     -Wno-missing-field-initializers
 
 LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/gps.utils \
